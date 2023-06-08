@@ -17,4 +17,4 @@ jobs:
                 aws-region: us-east-1   
 
             - name: Push To AWS S3 Bucket 
-              runs: aws s3 sync . s3://aws-s3-bucket-paper-preparation-2023-devops    
+              run: aws s3 sync . s3://aws-s3-bucket-paper-preparation-2023-devops    
